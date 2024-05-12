@@ -7,11 +7,11 @@ int main() g++ file.cpp -o output./output{
   cin >> amount1 >> amount2;
 
   if (amount1 > amount2) {
-    cout << "Lisu\n";
+    cout << "Beer\n";
   } else if (amount1 < amount2) {
-    cout << "navya\n";
+    cout << "Vodka\n";
     return 0;
   } else {
-    cout << "bhaichara on top\n";
+    cout << "Water\n";
   }
 }

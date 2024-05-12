@@ -12,6 +12,6 @@ int main() g++ file.cpp -o output./output{
     cout << "Vodka\n";
     return 0;
   } else {
-    cout << "Water\n";
+    cout << "Water./output\n";
   }
 }

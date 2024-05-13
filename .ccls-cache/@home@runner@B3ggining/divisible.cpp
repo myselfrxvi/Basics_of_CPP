@@ -1,9 +1,11 @@
 #include<iostream>
 using namespace std;
 
-int main()
-{
-    for(int date=1; date<=30; date++) {
+int main() {
+int a,b;
+cin>>a>>b;
+
+    for(int date=a; date<=b; date++) {
 
     if(date%3==0) {
     continue;
@@ -12,4 +14,4 @@ int main()
     cout<<date<<endl;
     }
     return 0;
-    }
+}
